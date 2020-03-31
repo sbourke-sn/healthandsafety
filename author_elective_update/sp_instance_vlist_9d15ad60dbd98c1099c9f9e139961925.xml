@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field>short_description</display_field>
+        <field_list/>
+        <filter table="x_snc_dstl_risk_risk_assessments">active=true^opened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="opened_by" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+        </filter>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">8015a1a0dbd98c1099c9f9e139961953</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-20 10:55:32</sys_created_on>
+        <sys_id>9d15ad60dbd98c1099c9f9e139961925</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Risk Assessments" source="x_snc_dstl_risk">3342d882db81841085212b870596194a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Risk Assessments">3342d882db81841085212b870596194a</sys_scope>
+        <sys_update_name>sp_instance_vlist_9d15ad60dbd98c1099c9f9e139961925</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-20 11:02:54</sys_updated_on>
+        <table>x_snc_dstl_risk_risk_assessments</table>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"always_show": {
+		"value": "",
+		"displayValue": ""
+	},
+	"panel_body_height": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image_field": {
+		"value": "",
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "state",
+		"displayValue": "state"
+	},
+	"rounded_images": {
+		"value": "",
+		"displayValue": ""
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "",
+		"displayValue": ""
+	},
+	"view": {
+		"value": "",
+		"displayValue": ""
+	},
+	"disable_record_watcher": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_vlist>
+    <sys_translated_text action="DELETE" query="documentkey=9d15ad60dbd98c1099c9f9e139961925"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Risk Assessments">3342d882db81841085212b870596194a</application>
+        <file_path/>
+        <instance_id>7b21cd4cdb4584103050ac44d4961986</instance_id>
+        <instance_name>dstldemo</instance_name>
+        <name>sp_instance_vlist_9d15ad60dbd98c1099c9f9e139961925</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_vlist"&gt;&lt;sp_instance_vlist action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;display_field&gt;short_description&lt;/display_field&gt;&lt;field_list/&gt;&lt;filter table="x_snc_dstl_risk_risk_assessments"&gt;active=true^opened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe&lt;item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/&gt;&lt;item endquery="false" field="opened_by" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/&gt;&lt;/filter&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;maximum_entries&gt;5&lt;/maximum_entries&gt;&lt;order&gt;1&lt;/order&gt;&lt;order_by/&gt;&lt;order_direction&gt;asc&lt;/order_direction&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;8015a1a0dbd98c1099c9f9e139961953&lt;/sp_column&gt;&lt;sp_page/&gt;&lt;sp_widget display_value="Simple List"&gt;5b255672cb03020000f8d856634c9c28&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_vlist&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-20 10:55:32&lt;/sys_created_on&gt;&lt;sys_id&gt;9d15ad60dbd98c1099c9f9e139961925&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Risk Assessments" source="x_snc_dstl_risk"&gt;3342d882db81841085212b870596194a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Risk Assessments"&gt;3342d882db81841085212b870596194a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_vlist_9d15ad60dbd98c1099c9f9e139961925&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-20 11:02:54&lt;/sys_updated_on&gt;&lt;table&gt;x_snc_dstl_risk_risk_assessments&lt;/table&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"always_show": {
+		"value": "",
+		"displayValue": ""
+	},
+	"panel_body_height": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image_field": {
+		"value": "",
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "state",
+		"displayValue": "state"
+	},
+	"rounded_images": {
+		"value": "",
+		"displayValue": ""
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "",
+		"displayValue": ""
+	},
+	"view": {
+		"value": "",
+		"displayValue": ""
+	},
+	"disable_record_watcher": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_vlist&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=9d15ad60dbd98c1099c9f9e139961925"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1872277971</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>3742d882db81841085212b870596194c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-20 11:02:54</sys_created_on>
+        <sys_id>45c66de0dbd98c1099c9f9e13996193d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e887ab95a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-20 11:02:54</sys_updated_on>
+        <type>Instance of Simple List</type>
+        <update_guid>cdc66de098d98c108d554587296c4b3c</update_guid>
+        <update_guid_history>cdc66de098d98c108d554587296c4b3c:1872277971,a15629e0c4d98c10c403aa2126c7ec07:-890167651,3dd521e060d98c107fbf7f160fb507e9:1872277971,30b52da009d98c10dcc6dde0155ce0c8:301846633,5d15ad6097d98c10ad982c5b47ad0527:-1730417483</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">c859a5a4dbd98c1099c9f9e1399619d4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-20 11:14:02</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_vlist">sp_instance_vlist</sys_db_object>
+        <sys_id>29abcb03849646608d22491e91737900</sys_id>
+        <sys_metadata>9d15ad60dbd98c1099c9f9e139961925</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Risk Assessments" source="x_snc_dstl_risk">3342d882db81841085212b870596194a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Risk Assessments">3342d882db81841085212b870596194a</sys_scope>
+        <sys_scope_delete display_value="">480b1a51212c4876ac878e27564a1f19</sys_scope_delete>
+        <sys_update_name>sp_instance_vlist_9d15ad60dbd98c1099c9f9e139961925</sys_update_name>
+        <sys_update_version display_value="sp_instance_vlist_9d15ad60dbd98c1099c9f9e139961925">45c66de0dbd98c1099c9f9e13996193d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-20 11:14:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

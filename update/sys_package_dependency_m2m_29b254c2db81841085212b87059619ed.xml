@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Task table schema" source="com.glide.task">95469584db01001099c9f9e1399619cd</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-12 10:30:51</sys_created_on>
+        <sys_id>29b254c2db81841085212b87059619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Risk Assessments" source="x_snc_dstl_risk">3342d882db81841085212b870596194a</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-12 10:30:51</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

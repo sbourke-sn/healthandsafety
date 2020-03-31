@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page display_value="PA New Tab">88e36b6adb0d081099c9f9e139961926</canvas_page>
+        <name>New Tab</name>
+        <page display_value="PA New Tab">4ce36b6adb0d081099c9f9e139961925</page>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>simon</sys_created_by>
+        <sys_created_on>2019-11-14 15:01:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>00e3eb6adb0d081099c9f9e139961958</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Risk Assessments" source="x_snc_dstl_risk">3342d882db81841085212b870596194a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Risk Assessments">3342d882db81841085212b870596194a</sys_scope>
+        <sys_update_name>pa_tabs_00e3eb6adb0d081099c9f9e139961958</sys_update_name>
+        <sys_updated_by>simon</sys_updated_by>
+        <sys_updated_on>2019-11-14 15:01:40</sys_updated_on>
+    </pa_tabs>
+</record_update>

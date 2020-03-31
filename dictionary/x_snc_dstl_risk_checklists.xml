@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Checklists" max_length="40" name="x_snc_dstl_risk_checklists" type="collection">
+        <element display="true" label="Hazard" max_length="255" name="hazard" type="string"/>
+        <element choice="3" default="n_a" label="Hazard Level" max_length="40" name="hazard_level" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="N/A" value="n_a"/>
+                <element inactive_on_update="false" label="S" value="significant"/>
+                <element inactive_on_update="false" label="T" value="trivial"/>
+            </choice>
+        </element>
+        <element label="Risk Assessment" max_length="32" name="risk_assessment" reference="x_snc_dstl_risk_risk_assessments" type="reference"/>
+        <index name="index">
+            <element name="risk_assessment"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>false</active>
+        <add_message>true</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_snc_dstl_risk_risk_assessments</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_snc_dstl_risk_risk_assessments">checklist_created=false^EQ<item endquery="false" field="checklist_created" goto="false" newquery="false" operator="=" or="false" value="false"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message><![CDATA[<p>Hello</p>]]></message>
+        <name>Create Checklists (Server Side)</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+		if (current == null)
+			{
+				gs.error("Current is null");
+			}
+		try {
+			var id = current.sys_id;
+			var record = new GlideRecord('x_snc_dstl_risk_risk_assessments');
+			record.get(id);
+			gs.addInfoMessage("SysID = " + id);
+		var inputs = {};
+		inputs['risk_assessment'] = record; // GlideRecord of table: x_snc_dstl_risk_risk_assessments 
+
+		// Start Asynchronously: Uncomment to run in background. Code snippet will not have access to outputs.
+		// sn_fd.FlowAPI.startSubflow('x_snc_dstl_risk.create_checklist', inputs);
+				
+		// Execute Synchronously: Run in foreground. Code snippet has access to outputs.
+		var outputs = sn_fd.FlowAPI.executeSubflow('x_snc_dstl_risk.create_checklist', inputs);
+
+		// Current subflow has no outputs defined.		
+	} catch (ex) {
+		var message = ex.getMessage();
+		gs.error(message);
+	}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-12 12:18:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2908a80adbc1841085212b8705961994</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Create Checklists (Server Side)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Risk Assessments" source="x_snc_dstl_risk">3342d882db81841085212b870596194a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Risk Assessments">3342d882db81841085212b870596194a</sys_scope>
+        <sys_update_name>sys_script_2908a80adbc1841085212b8705961994</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-12 12:33:02</sys_updated_on>
+        <template/>
+        <when>before_display</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=2908a80adbc1841085212b8705961994"/>
+</record_update>

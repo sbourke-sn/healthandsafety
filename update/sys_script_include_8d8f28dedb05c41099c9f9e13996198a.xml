@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_dstl_risk.GroupReferenceQual</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>GroupReferenceQual</name>
+        <script><![CDATA[var GroupReferenceQual = Class.create();
+GroupReferenceQual.prototype = {
+    initialize: function() {
+    },
+	
+	getMembers: function(groupId) {
+      var userArray = [];
+      var userGR = new GlideRecord('sys_user_grmember');
+      userGR.addQuery('group', groupId);
+      userGR.query();
+
+      while(userGR.next()) {
+		  userArray.push(userGR.user.sys_id);
+      }
+
+      return 'sys_idIN' + userArray.toString();
+	},
+	
+	getAuthorizationMembers: function(authorizationLevel) {
+		var userArray = [];
+		var queryCondition;
+		var userGR = new GlideRecord('sys_user_grmember');
+		
+		if (authorizationLevel == 'low') {
+			queryCondition = userGR.addQuery('group', '8f26818adb45841085212b8705961951');  //Line Management
+			queryCondition.addOrCondition('group','8a6c789adb45c41099c9f9e1399619e5'); //Delegated Authority
+			queryCondition.addOrCondition('group','0df749cadb45841085212b87059619d5'); //Department Manager
+			queryCondition.addOrCondition('group','543d34dadb45c41099c9f9e13996191e'); //Executives 
+			
+		}
+		
+		if (authorizationLevel == 'medium') {
+			queryCondition = userGR.addQuery('group', '543d34dadb45c41099c9f9e13996191e');  //Executives
+			queryCondition.addOrCondition('group','8a6c789adb45c41099c9f9e1399619e5'); //Delegated Authority
+			queryCondition.addOrCondition('group','0df749cadb45841085212b87059619d5'); //Department Manager
+			
+		}
+		
+		if (authorizationLevel == 'high') {
+			queryCondition = userGR.addQuery('group', '543d34dadb45c41099c9f9e13996191e');  //Executives
+			queryCondition.addOrCondition('group','8a6c789adb45c41099c9f9e1399619e5'); //Delegated Authority
+		}
+		
+		userGR.query();
+		
+		while(userGR.next()) {
+		  userArray.push(userGR.user.sys_id);
+		}
+
+		return 'sys_idIN' + userArray.toString();
+	},
+
+    type: 'GroupReferenceQual'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-13 07:26:18</sys_created_on>
+        <sys_id>8d8f28dedb05c41099c9f9e13996198a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>GroupReferenceQual</sys_name>
+        <sys_package display_value="Risk Assessments" source="x_snc_dstl_risk">3342d882db81841085212b870596194a</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Risk Assessments">3342d882db81841085212b870596194a</sys_scope>
+        <sys_update_name>sys_script_include_8d8f28dedb05c41099c9f9e13996198a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-13 09:28:10</sys_updated_on>
+    </sys_script_include>
+</record_update>

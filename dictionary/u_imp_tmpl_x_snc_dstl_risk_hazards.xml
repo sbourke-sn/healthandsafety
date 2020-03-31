@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X Snc Dstl Risk Hazards" max_length="40" name="u_imp_tmpl_x_snc_dstl_risk_hazards" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Hazard" max_length="40" name="u_hazard" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Mechanical" label="Mechanical" max_length="40" name="u_mechanical" type="string"/>
+    </element>
+</database>

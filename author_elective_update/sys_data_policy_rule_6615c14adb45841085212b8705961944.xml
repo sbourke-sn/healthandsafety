@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_policy_rule">
+    <sys_data_policy_rule action="DELETE">
+        <disabled>ignore</disabled>
+        <field>low_medium_or_high</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_data_policy_rule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-12 14:11:07</sys_created_on>
+        <sys_data_policy display_value="">1974890adb45841085212b8705961962</sys_data_policy>
+        <sys_id>6615c14adb45841085212b8705961944</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>low_medium_or_high</sys_name>
+        <sys_package display_value="Risk Assessments" source="x_snc_dstl_risk">3342d882db81841085212b870596194a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Risk Assessments">3342d882db81841085212b870596194a</sys_scope>
+        <sys_update_name>sys_data_policy_rule_6615c14adb45841085212b8705961944</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-12 14:11:07</sys_updated_on>
+        <table>x_snc_dstl_risk_hazard_controls</table>
+    </sys_data_policy_rule>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Risk Assessments">3342d882db81841085212b870596194a</application>
+        <file_path/>
+        <instance_id>7b21cd4cdb4584103050ac44d4961986</instance_id>
+        <instance_name>dstldemo</instance_name>
+        <name>sys_data_policy_rule_6615c14adb45841085212b8705961944</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_policy_rule"><sys_data_policy_rule action="INSERT_OR_UPDATE"><disabled>ignore</disabled><field>low_medium_or_high</field><mandatory>ignore</mandatory><sys_class_name>sys_data_policy_rule</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-11-12 14:11:07</sys_created_on><sys_data_policy display_value="">1974890adb45841085212b8705961962</sys_data_policy><sys_id>6615c14adb45841085212b8705961944</sys_id><sys_mod_count>0</sys_mod_count><sys_name>low_medium_or_high</sys_name><sys_package display_value="Risk Assessments" source="x_snc_dstl_risk">3342d882db81841085212b870596194a</sys_package><sys_policy/><sys_scope display_value="Risk Assessments">3342d882db81841085212b870596194a</sys_scope><sys_update_name>sys_data_policy_rule_6615c14adb45841085212b8705961944</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-11-12 14:11:07</sys_updated_on><table>x_snc_dstl_risk_hazard_controls</table></sys_data_policy_rule></record_update>]]></payload>
+        <payload_hash>-710178242</payload_hash>
+        <record_name>low_medium_or_high</record_name>
+        <reverted_from/>
+        <source>3742d882db81841085212b870596194c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-12 14:11:07</sys_created_on>
+        <sys_id>5025c14adb45841085212b87059619b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e5ff42bed0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-12 14:11:07</sys_updated_on>
+        <type>Data Policy Rule</type>
+        <update_guid>98254d0aea458410cbaa7c6cb849987b</update_guid>
+        <update_guid_history>98254d0aea458410cbaa7c6cb849987b:-710178242</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-12 14:11:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_data_policy_rule">sys_data_policy_rule</sys_db_object>
+        <sys_id>9346e3f60fff4000863607e3826ca510</sys_id>
+        <sys_metadata>6615c14adb45841085212b8705961944</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>low_medium_or_high</sys_name>
+        <sys_package display_value="Risk Assessments" source="x_snc_dstl_risk">3342d882db81841085212b870596194a</sys_package>
+        <sys_parent display_value="">1974890adb45841085212b8705961962</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Risk Assessments">3342d882db81841085212b870596194a</sys_scope>
+        <sys_scope_delete display_value="">480b1a51212c4876ac878e27564a1f19</sys_scope_delete>
+        <sys_update_name>sys_data_policy_rule_6615c14adb45841085212b8705961944</sys_update_name>
+        <sys_update_version display_value="sys_data_policy_rule_6615c14adb45841085212b8705961944">5025c14adb45841085212b87059619b4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-12 14:11:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

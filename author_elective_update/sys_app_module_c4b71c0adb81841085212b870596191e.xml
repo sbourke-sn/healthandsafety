@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Hazard Import</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_snc_dstl_risk_hazard_import</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-12 10:52:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c4b71c0adb81841085212b870596191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hazard Import</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Risk Assessments" source="x_snc_dstl_risk">3342d882db81841085212b870596194a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Risk Assessments">3342d882db81841085212b870596194a</sys_scope>
+        <sys_update_name>sys_app_module_c4b71c0adb81841085212b870596191e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-12 10:52:35</sys_updated_on>
+        <timeline_page/>
+        <title>Hazard Import</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Risk Assessments">3342d882db81841085212b870596194a</application>
+        <file_path/>
+        <instance_id>7b21cd4cdb4584103050ac44d4961986</instance_id>
+        <instance_name>dstldemo</instance_name>
+        <name>sys_app_module_c4b71c0adb81841085212b870596191e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Hazard Import</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_snc_dstl_risk_hazard_import</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-11-12 10:52:35</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c4b71c0adb81841085212b870596191e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Hazard Import</sys_name><sys_overrides/><sys_package display_value="Risk Assessments" source="x_snc_dstl_risk">3342d882db81841085212b870596194a</sys_package><sys_policy/><sys_scope display_value="Risk Assessments">3342d882db81841085212b870596194a</sys_scope><sys_update_name>sys_app_module_c4b71c0adb81841085212b870596191e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-11-12 10:52:35</sys_updated_on><timeline_page/><title>Hazard Import</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>485047198</payload_hash>
+        <record_name>Hazard Import</record_name>
+        <reverted_from/>
+        <source>3742d882db81841085212b870596194c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-12 10:52:35</sys_created_on>
+        <sys_id>c0b71c0adb81841085212b8705961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e5f3e66120000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-12 10:52:35</sys_updated_on>
+        <type>Module</type>
+        <update_guid>0cb71c0afd818410f0d5afc8ea00f11f</update_guid>
+        <update_guid_history>0cb71c0afd818410f0d5afc8ea00f11f:485047198</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Hazard Import">f9296c4adbc1841085212b8705961987</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-12 12:08:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>24996fd633b743d69e2ec4edd6d3a819</sys_id>
+        <sys_metadata>c4b71c0adb81841085212b870596191e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hazard Import</sys_name>
+        <sys_package display_value="Risk Assessments" source="x_snc_dstl_risk">3342d882db81841085212b870596194a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Risk Assessments">3342d882db81841085212b870596194a</sys_scope>
+        <sys_scope_delete display_value="">480b1a51212c4876ac878e27564a1f19</sys_scope_delete>
+        <sys_update_name>sys_app_module_c4b71c0adb81841085212b870596191e</sys_update_name>
+        <sys_update_version display_value="sys_app_module_c4b71c0adb81841085212b870596191e">c0b71c0adb81841085212b8705961920</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-12 12:08:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

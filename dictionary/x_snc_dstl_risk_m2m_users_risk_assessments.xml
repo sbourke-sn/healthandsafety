@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Dstl Risk M2m Users Risk Assessments" max_length="40" name="x_snc_dstl_risk_m2m_users_risk_assessments" type="collection">
+        <element attributes="encode_utf8=false" label="Risk Assessments" max_length="32" name="risk_assessments" reference="x_snc_dstl_risk_risk_assessments" type="reference"/>
+        <element attributes="encode_utf8=false" label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="risk_assessments"/>
+        </index>
+        <index name="index2">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

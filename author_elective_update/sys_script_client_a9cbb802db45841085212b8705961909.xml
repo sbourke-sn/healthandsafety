@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>likelihood</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Set Risk Level</name>
+        <order/>
+        <script><![CDATA[function onCellEdit(sysIDs, table, oldValues, newValue, callback) {
+  var saveAndClose = true;
+ //Type appropriate comment here, and begin script below
+ alert(table);
+	var gr = new Global.GlideRecord(table);
+	gr.get(sysIDs);
+	
+	var severity = gr.getValue("severity");
+	alert(severity);
+	if (severity != null)
+		{
+			alert("Severity = " + severity);
+		}
+ callback(saveAndClose); 
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-12 13:47:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a9cbb802db45841085212b8705961909</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Set Risk Level</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Risk Assessments" source="x_snc_dstl_risk">3342d882db81841085212b870596194a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Risk Assessments">3342d882db81841085212b870596194a</sys_scope>
+        <sys_update_name>sys_script_client_a9cbb802db45841085212b8705961909</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-12 14:31:53</sys_updated_on>
+        <table>x_snc_dstl_risk_hazard_controls</table>
+        <type>onCellEdit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Risk Assessments">3342d882db81841085212b870596194a</application>
+        <file_path/>
+        <instance_id>7b21cd4cdb4584103050ac44d4961986</instance_id>
+        <instance_name>dstldemo</instance_name>
+        <name>sys_script_client_a9cbb802db45841085212b8705961909</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;likelihood&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Set Risk Level&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onCellEdit(sysIDs, table, oldValues, newValue, callback) {
+  var saveAndClose = true;
+ //Type appropriate comment here, and begin script below
+ alert(table);
+	var gr = new Global.GlideRecord(table);
+	gr.get(sysIDs);
+	
+	var severity = gr.getValue("severity");
+	alert(severity);
+	if (severity != null)
+		{
+			alert("Severity = " + severity);
+		}
+ callback(saveAndClose); 
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-12 13:47:09&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;a9cbb802db45841085212b8705961909&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_name&gt;Set Risk Level&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Risk Assessments" source="x_snc_dstl_risk"&gt;3342d882db81841085212b870596194a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Risk Assessments"&gt;3342d882db81841085212b870596194a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_a9cbb802db45841085212b8705961909&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-12 14:31:53&lt;/sys_updated_on&gt;&lt;table&gt;x_snc_dstl_risk_hazard_controls&lt;/table&gt;&lt;type&gt;onCellEdit&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-115818100</payload_hash>
+        <record_name>Set Risk Level</record_name>
+        <reverted_from/>
+        <source>3742d882db81841085212b870596194c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-12 14:31:53</sys_created_on>
+        <sys_id>ace9414edb45841085212b870596192d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e60072d710000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-12 14:31:53</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>28e9414ec6458410111a9cafea873d2d</update_guid>
+        <update_guid_history>28e9414ec6458410111a9cafea873d2d:-115818100,af19050efb458410bff8d2990145d7cc:1139009465,5219890e82458410b8d3dd4b5f67139b:-115818100,bf64490acc4584106d3356fd12a4fcc0:-1422333329,c5c2c1c652458410b518861a653c551e:1341566178,c6d1058680458410f4278d90266729cb:-1306853310,40a141869e458410df9e4bf637a79a62:915614230,37f04546aa4584104ecdee33e4dd9db9:-1863095081,e9c08506ec4584108de535a433f800fb:1239927159,e6cf3406b5458410123f3808e58c16e1:83030420,15aff006824584109fee4e19845f214e:-1251136722</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-12 14:39:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>177ee96367c740b891b3783499086690</sys_id>
+        <sys_metadata>a9cbb802db45841085212b8705961909</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Risk Level</sys_name>
+        <sys_package display_value="Risk Assessments" source="x_snc_dstl_risk">3342d882db81841085212b870596194a</sys_package>
+        <sys_parent display_value="Hazard Controls">0a35f04adb05841085212b870596191a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Risk Assessments">3342d882db81841085212b870596194a</sys_scope>
+        <sys_scope_delete display_value="">480b1a51212c4876ac878e27564a1f19</sys_scope_delete>
+        <sys_update_name>sys_script_client_a9cbb802db45841085212b8705961909</sys_update_name>
+        <sys_update_version display_value="sys_script_client_a9cbb802db45841085212b8705961909">ace9414edb45841085212b870596192d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-12 14:39:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

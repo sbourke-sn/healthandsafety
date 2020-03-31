@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="severity" table="x_snc_dstl_risk_hazard_controls" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>severity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>A</label>
+            <language>en</language>
+            <name>x_snc_dstl_risk_hazard_controls</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-12 13:07:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4176788adb05841085212b87059619d1</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-12 13:07:05</sys_updated_on>
+            <value>a</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>severity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>B</label>
+            <language>en</language>
+            <name>x_snc_dstl_risk_hazard_controls</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-12 13:07:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0676788adb05841085212b87059619d5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-12 13:07:10</sys_updated_on>
+            <value>b</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>severity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>C</label>
+            <language>en</language>
+            <name>x_snc_dstl_risk_hazard_controls</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-12 13:07:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0f76b88adb05841085212b8705961952</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-12 13:07:14</sys_updated_on>
+            <value>c</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>severity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>D</label>
+            <language>en</language>
+            <name>x_snc_dstl_risk_hazard_controls</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-12 13:07:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dc86b88adb05841085212b8705961977</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-12 13:07:19</sys_updated_on>
+            <value>d</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>severity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>E</label>
+            <language>en</language>
+            <name>x_snc_dstl_risk_hazard_controls</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-12 13:07:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8586f48adb05841085212b87059619dc</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-12 13:07:24</sys_updated_on>
+            <value>e</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>severity</element>
+            <name>x_snc_dstl_risk_hazard_controls</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-12 13:07:04</sys_created_on>
+            <sys_id>4a76388adb05841085212b8705961959</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>severity</sys_name>
+            <sys_package display_value="Risk Assessments" source="x_snc_dstl_risk">3342d882db81841085212b870596194a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Risk Assessments">3342d882db81841085212b870596194a</sys_scope>
+            <sys_update_name>sys_choice_x_snc_dstl_risk_hazard_controls_severity</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-12 13:07:04</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

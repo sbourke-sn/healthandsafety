@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="hazard_level" table="x_snc_dstl_risk_checklists" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hazard_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>N/A</label>
+            <language>en</language>
+            <name>x_snc_dstl_risk_checklists</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-12 11:06:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a1ea5ccadb81841085212b87059619dd</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-12 11:07:56</sys_updated_on>
+            <value>n_a</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hazard_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>S</label>
+            <language>en</language>
+            <name>x_snc_dstl_risk_checklists</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-12 11:07:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>161b500edb81841085212b8705961990</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-12 11:08:00</sys_updated_on>
+            <value>significant</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hazard_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>T</label>
+            <language>en</language>
+            <name>x_snc_dstl_risk_checklists</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-12 11:07:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>97fadccadb81841085212b87059619c2</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-12 11:08:06</sys_updated_on>
+            <value>trivial</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>hazard_level</element>
+            <name>x_snc_dstl_risk_checklists</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-12 11:06:37</sys_created_on>
+            <sys_id>e9ea5ccadb81841085212b87059619dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>hazard_level</sys_name>
+            <sys_package display_value="Risk Assessments" source="x_snc_dstl_risk">3342d882db81841085212b870596194a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Risk Assessments">3342d882db81841085212b870596194a</sys_scope>
+            <sys_update_name>sys_choice_x_snc_dstl_risk_checklists_hazard_level</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-12 11:06:37</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

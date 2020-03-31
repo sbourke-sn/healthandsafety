@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="DELETE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>x_snc_dstl_risk_hazard_import</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-12 10:52:34</sys_created_on>
+        <sys_id>b7a71c0adb81841085212b8705961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_dstl_risk_hazard_import</sys_name>
+        <sys_package display_value="Risk Assessments" source="x_snc_dstl_risk">3342d882db81841085212b870596194a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Risk Assessments">3342d882db81841085212b870596194a</sys_scope>
+        <sys_update_name>ua_table_licensing_config_b7a71c0adb81841085212b8705961909</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-12 10:52:34</sys_updated_on>
+    </ua_table_licensing_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Risk Assessments">3342d882db81841085212b870596194a</application>
+        <file_path/>
+        <instance_id>7b21cd4cdb4584103050ac44d4961986</instance_id>
+        <instance_name>dstldemo</instance_name>
+        <name>ua_table_licensing_config_b7a71c0adb81841085212b8705961909</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>x_snc_dstl_risk_hazard_import</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-11-12 10:52:34</sys_created_on><sys_id>b7a71c0adb81841085212b8705961909</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_dstl_risk_hazard_import</sys_name><sys_package display_value="Risk Assessments" source="x_snc_dstl_risk">3342d882db81841085212b870596194a</sys_package><sys_policy/><sys_scope display_value="Risk Assessments">3342d882db81841085212b870596194a</sys_scope><sys_update_name>ua_table_licensing_config_b7a71c0adb81841085212b8705961909</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-11-12 10:52:34</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+        <payload_hash>1615729460</payload_hash>
+        <record_name>x_snc_dstl_risk_hazard_import</record_name>
+        <reverted_from/>
+        <source>3742d882db81841085212b870596194c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-12 10:52:34</sys_created_on>
+        <sys_id>bfa71c0adb81841085212b870596190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e5f3e64070000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-12 10:52:34</sys_updated_on>
+        <type>Table Subscription Configuration</type>
+        <update_guid>f7a71c0a9d8184103625e18b8b9b4e0a</update_guid>
+        <update_guid_history>f7a71c0a9d8184103625e18b8b9b4e0a:1615729460</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-12 12:08:54</sys_created_on>
+        <sys_db_object display_value="" name="ua_table_licensing_config">ua_table_licensing_config</sys_db_object>
+        <sys_id>704943844b3444febf5456b4fdf97404</sys_id>
+        <sys_metadata>b7a71c0adb81841085212b8705961909</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_dstl_risk_hazard_import</sys_name>
+        <sys_package display_value="Risk Assessments" source="x_snc_dstl_risk">3342d882db81841085212b870596194a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Risk Assessments">3342d882db81841085212b870596194a</sys_scope>
+        <sys_scope_delete display_value="">480b1a51212c4876ac878e27564a1f19</sys_scope_delete>
+        <sys_update_name>ua_table_licensing_config_b7a71c0adb81841085212b8705961909</sys_update_name>
+        <sys_update_version display_value="ua_table_licensing_config_b7a71c0adb81841085212b8705961909">bfa71c0adb81841085212b870596190a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-12 12:08:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>RA - Container 1</name>
+        <order>1</order>
+        <sp_page display_value="ra">0b05a96cdb998c1099c9f9e139961994</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-20 10:55:23</sys_created_on>
+        <sys_id>0b05a1a0dbd98c1099c9f9e13996194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RA - Container 1</sys_name>
+        <sys_package display_value="Risk Assessments" source="x_snc_dstl_risk">3342d882db81841085212b870596194a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Risk Assessments">3342d882db81841085212b870596194a</sys_scope>
+        <sys_update_name>sp_container_0b05a1a0dbd98c1099c9f9e13996194d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-20 10:55:23</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Risk Assessments">3342d882db81841085212b870596194a</application>
+        <file_path/>
+        <instance_id>7b21cd4cdb4584103050ac44d4961986</instance_id>
+        <instance_name>dstldemo</instance_name>
+        <name>sp_container_0b05a1a0dbd98c1099c9f9e13996194d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>RA - Container 1</name><order>1</order><sp_page display_value="ra">0b05a96cdb998c1099c9f9e139961994</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-11-20 10:55:23</sys_created_on><sys_id>0b05a1a0dbd98c1099c9f9e13996194d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>RA - Container 1</sys_name><sys_package display_value="Risk Assessments" source="x_snc_dstl_risk">3342d882db81841085212b870596194a</sys_package><sys_policy/><sys_scope display_value="Risk Assessments">3342d882db81841085212b870596194a</sys_scope><sys_update_name>sp_container_0b05a1a0dbd98c1099c9f9e13996194d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-11-20 10:55:23</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-62687351</payload_hash>
+        <record_name>RA - Container 1</record_name>
+        <reverted_from/>
+        <source>3742d882db81841085212b870596194c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-20 10:55:23</sys_created_on>
+        <sys_id>0b05a1a0dbd98c1099c9f9e13996194f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e8873d73b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-20 10:55:23</sys_updated_on>
+        <type>Container</type>
+        <update_guid>4305a1a066d98c106db36e4451a1b94f</update_guid>
+        <update_guid_history>4305a1a066d98c106db36e4451a1b94f:-62687351</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="RA - Container 1">5c59a5a4dbd98c1099c9f9e1399619ee</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-20 11:14:02</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>6c892e44e5ba492da0f0e89f39e96661</sys_id>
+        <sys_metadata>0b05a1a0dbd98c1099c9f9e13996194d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RA - Container 1</sys_name>
+        <sys_package display_value="Risk Assessments" source="x_snc_dstl_risk">3342d882db81841085212b870596194a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Risk Assessments">3342d882db81841085212b870596194a</sys_scope>
+        <sys_scope_delete display_value="">480b1a51212c4876ac878e27564a1f19</sys_scope_delete>
+        <sys_update_name>sp_container_0b05a1a0dbd98c1099c9f9e13996194d</sys_update_name>
+        <sys_update_version display_value="sp_container_0b05a1a0dbd98c1099c9f9e13996194d">0b05a1a0dbd98c1099c9f9e13996194f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-20 11:14:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

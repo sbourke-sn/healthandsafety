@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="facc9ae6db05081085212b870596190b" sys_domain="global" table="x_snc_dstl_risk_risk_assessments" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-14 13:39:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5df05fe2dbc9081099c9f9e139961958</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_dstl_risk_risk_assessments" name="x_snc_dstl_risk_risk_assessments" sys_domain="global" view="Default view">facc9ae6db05081085212b870596190b</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_dstl_risk_risk_assessments" sys_domain="global" view="Default view">0df01fe2dbc9081099c9f9e1399619d5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-14 13:39:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-14 13:11:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bdaa436edb89081099c9f9e13996198f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_dstl_risk_risk_assessments" name="x_snc_dstl_risk_risk_assessments" sys_domain="global" view="Default view">facc9ae6db05081085212b870596190b</sys_ui_form>
+            <sys_ui_section caption="Reviewers/Authorizers" display_value="Reviewers/Authorizers" name="x_snc_dstl_risk_risk_assessments" sys_domain="global" view="Default view">bdaa436edb89081099c9f9e13996198c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-14 13:11:28</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-14 13:07:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>21c9c32edb89081099c9f9e139961989</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_dstl_risk_risk_assessments" name="x_snc_dstl_risk_risk_assessments" sys_domain="global" view="Default view">facc9ae6db05081085212b870596190b</sys_ui_form>
+            <sys_ui_section caption="History" display_value="History" name="x_snc_dstl_risk_risk_assessments" sys_domain="global" view="Default view">6dc9c32edb89081099c9f9e139961986</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-14 13:11:28</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-14 13:07:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e9c9072edb89081099c9f9e13996193a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_dstl_risk_risk_assessments" name="x_snc_dstl_risk_risk_assessments" sys_domain="global" view="Default view">facc9ae6db05081085212b870596190b</sys_ui_form>
+            <sys_ui_section caption="Comments" display_value="Comments" name="x_snc_dstl_risk_risk_assessments" sys_domain="global" view="Default view">e9c9c32edb89081099c9f9e139961987</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-14 13:11:28</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_dstl_risk_risk_assessments</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-14 09:51:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>facc9ae6db05081085212b870596190b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_dstl_risk_risk_assessments</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Risk Assessments" source="x_snc_dstl_risk">3342d882db81841085212b870596194a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Risk Assessments">3342d882db81841085212b870596194a</sys_scope>
+            <sys_update_name>sys_ui_form_sections_facc9ae6db05081085212b870596190b</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-14 09:51:05</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Risk Assessments" max_length="40" name="x_snc_dstl_risk_risk_assessments" sizeclass="18" type="collection">
+        <element label="Additional Review" max_length="32" name="additional_review" reference="sys_user" type="reference"/>
+        <element label="Associated Work Procedure / Trial Plan number(s)" max_length="40" name="associated_work_procedure_trial_plan_number_s" type="string"/>
+        <element choice="1" label="Residual Risk Rating" max_length="40" name="authorisation_level" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Low" sequence="100" value="low"/>
+                <element inactive_on_update="false" label="Medium" sequence="200" value="medium"/>
+                <element inactive_on_update="false" label="High" sequence="300" value="high"/>
+            </choice>
+        </element>
+        <element label="Authorization by" max_length="32" name="authorization_by" read_only="true" reference="sys_user" reference_qual="javascript:new x_snc_dstl_risk.GroupReferenceQual().getAuthorizationMembers(current.authorisation_level)" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Authorization Comments" max_length="4000" name="authorization_comments" read_only="true" type="journal"/>
+        <element label="Checklist Created" max_length="40" name="checklist_created" type="boolean"/>
+        <element label="Controls Defined" max_length="40" name="controls_defined" type="boolean"/>
+        <element label="CTS Safety Advisor" max_length="32" name="cts_safety_advisor" reference="sys_user" reference_qual="javascript:new x_snc_dstl_risk.GroupReferenceQual().getMembers('6f963c56db45c41099c9f9e139961944')" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Hazards Identified" max_length="40" name="hazards_identified" type="boolean"/>
+        <element label="Line Manager" max_length="32" name="line_manager" reference="sys_user" type="reference"/>
+        <element label="Peer / Technical Reviewer" max_length="32" name="peer_technical_reviewer" reference="sys_user" reference_qual="javascript:new x_snc_dstl_risk.GroupReferenceQual().getMembers('c053b892db45c41099c9f9e1399619eb')" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Previously sub for auth" max_length="40" name="previously_sub_for_auth" type="boolean"/>
+        <element label="Previously sub for review" max_length="40" name="previously_sub_for_review" type="boolean"/>
+        <element label="Submitted for Authorization" max_length="40" name="submitted_for_authorization" type="boolean"/>
+        <element label="Submitted for Review" max_length="40" name="submitted_for_review" type="boolean"/>
+    </element>
+</database>

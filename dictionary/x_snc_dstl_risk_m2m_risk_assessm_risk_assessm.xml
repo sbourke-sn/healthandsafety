@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Dstl Risk M2m Risk Assessm Risk Assessm" max_length="40" name="x_snc_dstl_risk_m2m_risk_assessm_risk_assessm" type="collection">
+        <element attributes="encode_utf8=false" label="Risk Assessments" max_length="32" name="associated_risk_assessments" reference="x_snc_dstl_risk_risk_assessments" type="reference"/>
+        <element attributes="encode_utf8=false" label="Risk Assessments" max_length="32" name="associated_risk_assessments_child" reference="x_snc_dstl_risk_risk_assessments" type="reference"/>
+        <index name="index">
+            <element name="associated_risk_assessments"/>
+        </index>
+    </element>
+</database>

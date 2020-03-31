@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access/>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>Hazard Import</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_snc_dstl_risk_hazard_import</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Import Set Row" name="sys_import_set_row">b8361184db01001099c9f9e139961962</super_class>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-12 10:52:34</sys_created_on>
+        <sys_id>b3a7d80adb81841085212b8705961966</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dstl Risk Hazard Import</sys_name>
+        <sys_package display_value="Risk Assessments" source="x_snc_dstl_risk">3342d882db81841085212b870596194a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Risk Assessments">3342d882db81841085212b870596194a</sys_scope>
+        <sys_update_name>sys_db_object_b3a7d80adb81841085212b8705961966</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-12 10:52:34</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Risk Assessments">3342d882db81841085212b870596194a</application>
+        <file_path/>
+        <instance_id>7b21cd4cdb4584103050ac44d4961986</instance_id>
+        <instance_name>dstldemo</instance_name>
+        <name>sys_db_object_b3a7d80adb81841085212b8705961966</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access/><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>Hazard Import</label><live_feed_enabled>false</live_feed_enabled><name>x_snc_dstl_risk_hazard_import</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class display_value="Import Set Row" name="sys_import_set_row">b8361184db01001099c9f9e139961962</super_class><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>admin</sys_created_by><sys_created_on>2019-11-12 10:52:34</sys_created_on><sys_id>b3a7d80adb81841085212b8705961966</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Dstl Risk Hazard Import</sys_name><sys_package display_value="Risk Assessments" source="x_snc_dstl_risk">3342d882db81841085212b870596194a</sys_package><sys_policy/><sys_scope display_value="Risk Assessments">3342d882db81841085212b870596194a</sys_scope><sys_update_name>sys_db_object_b3a7d80adb81841085212b8705961966</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-11-12 10:52:34</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>1166357512</payload_hash>
+        <record_name>Hazard Import</record_name>
+        <reverted_from/>
+        <source>3742d882db81841085212b870596194c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-12 10:52:34</sys_created_on>
+        <sys_id>77a71c0adb81841085212b870596190d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e5f3e643a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-12 10:52:34</sys_updated_on>
+        <type>Table</type>
+        <update_guid>ffa71c0a4e818410f0aa185d8dea3c0c</update_guid>
+        <update_guid_history>ffa71c0a4e818410f0aa185d8dea3c0c:1166357512</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-12 12:08:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>1a46a11cbc0c422a8383e927511e7119</sys_id>
+        <sys_metadata>b3a7d80adb81841085212b8705961966</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dstl Risk Hazard Import</sys_name>
+        <sys_package display_value="Risk Assessments" source="x_snc_dstl_risk">3342d882db81841085212b870596194a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Risk Assessments">3342d882db81841085212b870596194a</sys_scope>
+        <sys_scope_delete display_value="">480b1a51212c4876ac878e27564a1f19</sys_scope_delete>
+        <sys_update_name>sys_db_object_b3a7d80adb81841085212b8705961966</sys_update_name>
+        <sys_update_version display_value="sys_db_object_b3a7d80adb81841085212b8705961966">77a71c0adb81841085212b870596190d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-12 12:08:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

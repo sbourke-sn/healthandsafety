@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Hazard Controls" max_length="40" name="x_snc_dstl_risk_hazard_controls" type="collection">
+        <element label="Hazard" max_length="32" name="checklist_item" reference="x_snc_dstl_risk_checklists" type="reference"/>
+        <element label="Control Measures" max_length="4096" name="control_measures" type="string"/>
+        <element label="Hazard Description" mandatory="true" max_length="255" name="hazard_description" type="string"/>
+        <element label="How Could Harm Occur?" max_length="4096" name="how_could_harm_occur" type="string"/>
+        <element choice="1" hint="V: &lt; 1 in 100 yrs&#13;&#10;W: Between 1 in 10 yrs and 1 in 100 yrs&#13;&#10;X: Between 1 in 5 yrs and 1 in 10 yrs&#13;&#10;Y: Between 1 in 2 yrs and 1 in 5 yrs&#13;&#10;Z: &gt; 1 in 2 yrs" label="Likelihood" max_length="40" name="likelihood" type="choice">
+            <choice>
+                <element hint="&lt; 1 in 100 Years" inactive_on_update="false" label="V" value="v"/>
+                <element hint="Between 1 in 10 yrs and 1 in 100 yrs" inactive_on_update="false" label="W" value="w"/>
+                <element hint="Between 1 in 5 yrs and 1 in 10 yrs" inactive_on_update="false" label="X" value="x"/>
+                <element hint="Between 1 in 2 years and 1 in 5 years" inactive_on_update="false" label="Y" value="y"/>
+                <element hint="&gt; 1 in 2 years" inactive_on_update="false" label="Z" value="z"/>
+            </choice>
+        </element>
+        <element choice="1" hint="Calculated using a combination of likelihood and severity" label="Risk Level" max_length="40" name="low_medium_or_high" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="High" value="high"/>
+                <element inactive_on_update="false" label="Low" value="low"/>
+                <element inactive_on_update="false" label="Medium" value="medium"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Risk Assessment" max_length="32" name="risk_assessment" reference="x_snc_dstl_risk_risk_assessments" type="reference"/>
+        <element choice="1" hint="A&#9;Injuries that can be treated by the local First Aider from First Aid box&#13;&#10;B&#9;Minor non-disabling injury requiring professional medical advice&#13;&#10;C&#9;Serious injury or acute illness resulting in temporary disability&#13;&#10;D&#9;Permanent disability, loss of body part and/or chronic illness &#13;&#10;E&#9;Death" label="Severity" max_length="40" name="severity" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="A" value="a"/>
+                <element inactive_on_update="false" label="B" value="b"/>
+                <element inactive_on_update="false" label="C" value="c"/>
+                <element inactive_on_update="false" label="D" value="d"/>
+                <element inactive_on_update="false" label="E" value="e"/>
+            </choice>
+        </element>
+        <element label="Who/what could be harmed?" max_length="4096" name="who_what_could_be_harmed" type="string"/>
+        <index name="index">
+            <element name="checklist_item"/>
+        </index>
+        <index name="index2">
+            <element name="risk_assessment"/>
+        </index>
+    </element>
+</database>

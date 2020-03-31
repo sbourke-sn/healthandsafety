@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>peer_technical_reviewer</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-13 09:53:31</sys_created_on>
+        <sys_id>96b3999edb85c41099c9f9e13996195c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>peer_technical_reviewer</sys_name>
+        <sys_package display_value="Risk Assessments" source="x_snc_dstl_risk">3342d882db81841085212b870596194a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Risk Assessments">3342d882db81841085212b870596194a</sys_scope>
+        <sys_update_name>sys_ui_policy_action_96b3999edb85c41099c9f9e13996195c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-13 09:53:31</sys_updated_on>
+        <table>x_snc_dstl_risk_risk_assessments</table>
+        <ui_policy display_value="Show/Hide Reviewers">893f819adb85c41099c9f9e13996197b</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

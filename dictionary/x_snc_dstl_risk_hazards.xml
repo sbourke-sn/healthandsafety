@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Hazards" max_length="40" name="x_snc_dstl_risk_hazards" type="collection">
+        <element label="Hazard" max_length="255" name="hazard" type="string"/>
+    </element>
+</database>
